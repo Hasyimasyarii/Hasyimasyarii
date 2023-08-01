@@ -35,7 +35,7 @@
           <input type="password" name="password" class="form-control" id="password" placeholder="Password" required>
         </div>
     
-        <button class="w-100 btn btn-lg btn-danger" type="submit">Login</button>
+        <button class="w-100 btn btn-lg btn-success" type="submit">Login</button>
       </form>
       <small class="d-block text-center mt-3">Not registered? <a href="/register">Register Now!</a></small>
     </main>

@@ -52,9 +52,9 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-danger">
+    <nav class="navbar navbar-dark bg-success">
         <div class="container">
-            <a class="navbar-brand" href="#">MAMAK</a>
+            <a class="navbar-brand" href="#">Manajemen Mahasiswa dan Kelas</a>
         </div>
     </nav>
 
