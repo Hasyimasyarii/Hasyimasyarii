@@ -21,7 +21,7 @@ class LoginController extends Controller
 
         if(Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/dashboard');
+            return redirect()->intended('/mahasiswa');
         } else {
             return back()->with('loginError', 'Login Failed! Email or password invalid');
         }
