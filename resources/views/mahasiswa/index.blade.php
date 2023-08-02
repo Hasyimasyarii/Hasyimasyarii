@@ -3,6 +3,8 @@
 @section('konten')
 <form action='{{ url('mahasiswa') }}' method='post'>
 @csrf
+    <nav class="navbar navbar-dark bg-success">
+    </nav>
     <div class="my-3 p-3 bg-body rounded shadow-sm">
         <div class="mb-3 row">
             <label for="nim" class="col-sm-2 col-form-label">NIM</label>
@@ -55,9 +57,9 @@
                     <tbody>
                         <tr>
                             <td>1</td>
-                            <td>1001</td>
-                            <td>Ani</td>
-                            <td>Ilmu Komputer</td>
+                            <td>201220025</td>
+                            <td>Hasyim Asy'ari</td>
+                            <td>Teknik Informatika</td>
                             <td>
                                 <a href='' class="btn btn-warning btn-sm">Edit</a>
                                 <a href='' class="btn btn-danger btn-sm">Del</a>
